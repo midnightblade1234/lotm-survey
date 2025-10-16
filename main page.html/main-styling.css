@@ -23,8 +23,13 @@ html, body {
     padding-left: 20px;
 }
 hr{
-    background-color: #ffe7b5;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-color: #fbebc7;
     height: 1px;
+    background-color: #ffe7b5;
+    margin: 0;
+    padding: 0;
 }
 .top-head{
     background-image: url("../images/download.jpeg");
@@ -36,12 +41,34 @@ hr{
 }
 main{
     display: flex;
-    height: 70vh;
+    flex-direction: column;
+    height: 90vh;
     background-image: url("../images/Lord of the Mysteries.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     border: 0;
+}
+.volumes{
+    display: flex;
+    flex-direction: row;
+}
+.volume{
+    margin:3px;
+    padding: 0;
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+img{
+    height:250px;
+    width:150px;
+    border-radius: 5%;
+    border: 5px solid #ffe7b5;
+}
+.large-space{
+    height: 350px;
 }
 
